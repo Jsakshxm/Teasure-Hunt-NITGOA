@@ -1,8 +1,12 @@
+"use client"
 import Image from 'next/image';
-import React from 'react';
+import { useEffect } from 'react';
 
 const Page = () => {
-    console.log("https://canary.saavyas.org/sample/2b0ba03f5d66eb9e14bc8ce4830b820f/index.html")
+useEffect(()=>{
+  console.log("https://teasure-hunt-nitgoa-gf7x.vercel.app/Trial/1")
+},[])
+    
   return (
     <div className='bg-[#fefae0] flex flex-col items-center min-h-screen pt-4 px-2'>
       <h1 className='mb-4 text-2xl font-medium text-center md:text-3xl'>The Canary 1961 Begins</h1>
@@ -14,11 +18,11 @@ const Page = () => {
           width={500}
           height={500}
           alt="Riddle"
-          objectFit="contain"  className='mt-7 pt-7'
+          objectFit="contain"  className='pt-5 mt-5'
         />
       </div>
       <div className='max-w-lg space-y-3 text-center'>
-        <p className='text-lg font-semibold pt-7 mt-7'>
+        <p className='pt-5 mt-5 text-lg font-semibold'>
           Find hidden words from this image and use one of those words in the next stage.
         </p>
         <p className='pt-3 mt-3 font-light'>
