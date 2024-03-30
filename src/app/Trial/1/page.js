@@ -30,7 +30,7 @@ const Canary1961Page = () => {
           with the KEY (all characters should be capital) to generate the
           RESULT and then head over to
         </span>
-        <span className="p-2 border border-white">www.saavyas.in/RESULT</span>
+        <span className="p-2 border border-white">www.teasurehunt.saavyas.in/RESULT</span>
       </div>
     );
   };
