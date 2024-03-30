@@ -8,5 +8,5 @@ const Canary1961Page = () => {
     );
   };
   
-  export default Canary1961Page;
+  export default Canary1961Page
   
