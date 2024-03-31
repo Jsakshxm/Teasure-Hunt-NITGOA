@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const Page = () => {
   useEffect(() => {
-    console.log("https://teasure-hunt-nitgoa-gf7x.vercel.app/Trial/1")
+    console.log("https://teasurehunt.saavyas.in/Trial/1")
   }, []);
   const[hint,SetHint]=useState(false)
     
@@ -35,7 +35,7 @@ const Page = () => {
         </p>
         {/* Adding the meme below */}
         <button className='p-2 mt-4 font-semibold transition duration-300 ease-out border border-purple-700 w-44 sm:w-auto sm:px-10 hover:bg-purple-700 hover:text-white' onClick={()=>{SetHint(!hint)}}> 
-        {hint ? "Bhai mujhe teri koi zarurat nahi hai" : "Bhai muhje hint chahiye"}
+        {hint ? "chodh Bhai rehne de" : "Bhai muhje hint chahiye"}
       </button>
       { hint && 
         <Image
