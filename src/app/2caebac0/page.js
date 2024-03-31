@@ -28,7 +28,7 @@ const Canary1961Page = () => {
       />
       {/* Apply motion to the audio tag */}
       <motion.audio 
-        src="/hint1.mp3" 
+        src="/audio1.mp3" 
         controls 
         variants={audioVariants}
         initial="hidden"
