@@ -63,7 +63,7 @@ const Canary1961Page = () => {
         className="p-2 mt-4 border border-white"
         variants={itemVariants}
       >
-        www.teasurehunt.saavyas.in/RESULT
+        https://teasurehunt.saavyas.in/RESULT
       </motion.span>
     </motion.div>
   );
